@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Roboto-Italic;
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../img/neom-WpOMM4uE-F8-unsplash.jpg);
+    height: 100vh;
+    background-size:cover ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h2{
+margin: 0 auto;
+padding: 0 auto;
+font-family: Roboto-Italic;
+font-size: 14px;
+font-weight: 700;
+color: 
+#565C73
+;
+}
+main {
+    margin: 196px auto;
+    font-family: Roboto-Regular;
+    color: 
+    #CDD4DE;
+}
+h1 {
+ margin-bottom:28px;
+ font-size: 165px;
+    font-weight: 700;
+}
+h3 {
+    margin-bottom: 14px;
+    font-size: 34px;
+    font-weight: 700;
+}
+p {
+    font-size: 14px;
+    font-weight: 100;
+}
+a{
+    padding: 9px 15px;
+    font-family:Roboto-Regular;
+    font-size: 12px;
+    font-weight: 100;
+    text-decoration: none;
+    color:  #CDD4DE;
+    border:1px solid #CDD4DE;
+    border-radius: 4px;
+    opacity: 28%;
+}

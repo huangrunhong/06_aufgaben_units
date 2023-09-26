@@ -1,0 +1,33 @@
+@font-face {
+    font-family: ChelseaMarket;
+    src: url(./../fonts/ChelseaMarket-Regular.ttf);
+}
+body {
+    background-image: url(../img/neom-WpOMM4uE-F8-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+overflow: hidden;
+font-family: ChelseaMarket;
+}
+
+main {
+    padding: 5%;
+    text-align: center;
+}
+article{
+    padding: 2%;
+    margin: auto 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5rem;
+}
+h1 {
+    font-size: 2rem;
+    text-shadow: ;
+    padding: 0 15%;
+}
+h2 {
+    font-size: 1.5em;
+}
+p {
+    font-size: 14px;
+}
